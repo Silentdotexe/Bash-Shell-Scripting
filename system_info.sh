@@ -32,4 +32,4 @@ printf "%${lines}s" " " | tr " " "*"
 printf "\033[1;31m%$((lines/2))s\033[0;m\n" "END"
 printf "%${lines}s" " " | tr " " "*"
 
-#Author : /OmPrakash/slientdotexe
+#Author /OmPrakash/slientdotexe
