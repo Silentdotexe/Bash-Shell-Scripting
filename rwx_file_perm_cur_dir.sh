@@ -6,4 +6,4 @@ for i in $f
 do
     echo -e "\n$i"
 done
-#author /OmPrakash/slientdotexe
+#Author /OmPrakash/slientdotexe
