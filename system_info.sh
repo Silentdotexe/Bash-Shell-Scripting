@@ -25,7 +25,7 @@ us=$(who)
 echo -e "\n$us\n"
 
 printf "\033[1;32m%s \033[0;m\n" "TOP 5 MEMORY COMSUMING PROCESSES"
-cp=$(ps -eo pid=PID,%mem=MEMORY%,%cpu=CPU%,comm=COMMAND --sort=-%mem | head -5)
+cp=$(ps -eo pid=PID,%mem=MEMORY%,%cpu=CPU%,comm=COMMAND --sort=-%mem | head -6)
 echo -e "\n$cp\n"
 
 printf "%${lines}s" " " | tr " " "*"
