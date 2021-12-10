@@ -31,3 +31,5 @@ echo -e "\n$cp\n"
 printf "%${lines}s" " " | tr " " "*"
 printf "\033[1;31m%$((lines/2))s\033[0;m\n" "END"
 printf "%${lines}s" " " | tr " " "*"
+
+#Author : /OmPrakash/slientdotexe
